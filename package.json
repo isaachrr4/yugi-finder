@@ -4,7 +4,8 @@
   "description": "Yugi finder is a Yugi-Oh card finder app that uses a Yugi-Oh API to find diffrent cards from the game. It will display the card, the diffrent rarities of the card and where to find it ITS TIME TO DUEL!!! This app will be bulit using react and it will have a Mongodb database on the backend that will hold the data for the app.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "faker": "^5.5.3",
-    "mongoose": "^6.0.13"
+    "mongoose": "^6.0.13",
+    "router": "^1.3.6"
   }
 }
